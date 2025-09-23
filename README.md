@@ -21,6 +21,7 @@ Here are some ideas to get you started:
 Я аналитик данных и начинающий дата-сайентист с большим опытом в бизнесе и коммерции 💼📈. Мой репозиторий на GitHub содержит проекты по анализу данных, Python и другим инструментам Data Science.
 
 I’m Maksym Chunikhin
+
 They say data is the new gold! 📊💎
 
 I’m a Data Analyst and aspiring Data Scientist with extensive experience in business and commerce 💼📈. My GitHub repository features projects on data analysis, Python, and other Data Science tools.
