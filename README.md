@@ -14,10 +14,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-Приветственное сообщение с эмодзи и ссылками на социальные сети.
+Я Максым Чунихин
+Говорят, данные — это новое золото! 📊💎
 
-Краткая биография: кто я, чем занимаюсь, чем увлекаюсь.
+Я аналитик данных и начинающий дата-сайентист с большим опытом в бизнесе и коммерции 💼📈. Мой репозиторий на GitHub содержит проекты по анализу данных, Python и другим инструментам Data Science.
 
-Ссылки на  сайт, Twitter, LinkedIn и другие ресурсы.
+I’m Maksym Chunikhin
+They say data is the new gold! 📊💎
 
-Технологии и навыки
+I’m a Data Analyst and aspiring Data Scientist with extensive experience in business and commerce 💼📈. My GitHub repository features projects on data analysis, Python, and other Data Science tools.
