@@ -55,5 +55,5 @@ Production ML pipelines · model deployment · recommender systems
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/maksym-chunikhin-6423476b/) · maksym.chunikhin@example.com <!-- TODO: real email -->
+[LinkedIn](https://www.linkedin.com/in/maksym-chunikhin-6423476b/) · m.chunihin@gmail.com <!-- TODO: real email -->
 
