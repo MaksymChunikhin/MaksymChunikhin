@@ -2,7 +2,7 @@
 
 **Data Science & Machine Learning** — predictive modeling, NLP, time series forecasting, and market intelligence. I build end-to-end projects: from raw data to validated models, explainability, and Streamlit apps.
 
-📍 Emilia-Romagna, Italy · 🌐 English / Italian / Russian · 💼 Open to **Junior Data Scientist / ML Engineer** roles
+🌐 English / Italian / Ucraine / Russian · 💼 Open to **Junior Data Scientist / ML Engineer** roles
 
 Background in telecommunications (field network infrastructure) and commercial operations — I know what messy real-world data and business processes look like from the inside.
 
