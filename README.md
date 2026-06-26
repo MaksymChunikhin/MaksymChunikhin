@@ -1,92 +1,98 @@
 # Maksym Chunikhin
 
-**Data Science & Machine Learning** — predictive modeling, recommender systems, NLP, time series forecasting, and market intelligence. I build end-to-end ML systems: from raw data and feature engineering to validated models, explainability, REST APIs, Docker deployment, and interactive Streamlit applications.
+**Data Science & Machine Learning** — recommender systems, NLP, predictive modeling, time series forecasting, and production ML. I build end-to-end machine learning systems: from raw data and feature engineering to validated models, explainability, REST APIs, Docker deployment, and interactive Streamlit applications.
 
-🌐 **English / Italian / Ukrainian / Russian**
+🌐 **English • Italian • Ukrainian • Russian**
 💼 **Open to Junior Data Scientist / Machine Learning Engineer roles**
 
-Background in telecommunications (field network infrastructure) and commercial operations — I know what messy real-world data and business processes look like from the inside.
+Background in telecommunications (field network infrastructure) and commercial operations — I understand how messy real-world data and business processes work beyond the notebook.
 
 ---
 
-# Featured Projects
+# 🚀 Featured Projects
 
 ## 🎮 Steam Discovery Engine
 
-Production-style recommendation system inspired by modern large-scale recommender architectures. Built from scratch as a complete two-stage retrieval and ranking pipeline.
+Production-style recommendation system inspired by modern large-scale recommender architectures.
 
 **Highlights**
 
-* Two-stage recommendation pipeline (retrieval → ranking)
-* Multiple retrieval models:
-
-  * ALS collaborative filtering
-  * Content-based retrieval
-  * Semantic retrieval (Sentence Transformers)
-  * Two-Tower neural recommender
-* LambdaMART (LightGBM) learning-to-rank re-ranker
-* Leakage-free offline evaluation
-* FastAPI inference service
-* Interactive Streamlit dashboard
+* Two-stage retrieval + LambdaMART ranking
+* ALS, semantic, content-based and Two-Tower retrieval
+* FastAPI REST API + Streamlit dashboard
 * Docker deployment
-* Modular production-ready architecture
+* Leakage-free offline evaluation
 
-**Tech:** Python • LightGBM • Sentence Transformers • PyTorch • FAISS • FastAPI • Streamlit • Docker
-
----
-
-## 📝 Amazon Review Intelligence
-
-End-to-end NLP system on **500k Amazon reviews**: sentiment classification, topic modeling, customer analytics, Streamlit dashboard.
-
-Tuned **TF-IDF + LinearSVC (macro-F1 0.717)** vs fine-tuned **DistilBERT (0.744)** using a leakage-free shared split. Includes a documented comparison between classical ML and Transformers, plus LDA topic modeling with trade-off analysis.
+**Tech:** LightGBM • FAISS • Sentence Transformers • PyTorch • FastAPI • Streamlit • Docker
 
 ---
 
 ## 🛡️ Fraud Detection System
 
-IEEE-CIS Kaggle pipeline on **590k transactions / 471 features**.
+IEEE-CIS Kaggle solution for financial fraud detection.
 
-* Advanced UID aggregation features
+**Highlights**
+
+* 590k transactions / 471 engineered features
 * Time-aware validation
 * Optuna-tuned LightGBM
 * SHAP explainability
 * Analyst-facing Streamlit dashboard
 
-**ROC-AUC**
+**ROC-AUC:** **0.949** (Public) • **0.919** (Private)
 
-* Public LB: **0.949**
-* Private LB: **0.919**
+---
+
+## 📝 Amazon Review Intelligence
+
+End-to-end NLP system built on **500k Amazon reviews**.
+
+**Highlights**
+
+* TF-IDF vs DistilBERT benchmark
+* Sentiment classification
+* LDA topic modeling
+* Customer analytics dashboard
+* Leakage-free evaluation
+
+**Best Macro-F1:** **0.744**
 
 ---
 
 ## 🏠 Airbnb Smart Pricing & Market Intelligence
 
-End-to-end pricing and analytics platform built on the Inside Airbnb Amsterdam dataset.
+End-to-end pricing and market intelligence platform for Airbnb listings.
 
-Includes:
+**Highlights**
 
-* ensemble price prediction (MAE €53, R² 0.68)
-* undervalued/overpriced listing detection
-* host segmentation
+* Ensemble price prediction
+* Underpriced / overpriced listing detection
+* Host segmentation
 * MiniLM content recommender
 * Streamlit dashboard
+
+**Performance:** **MAE €53 • R² 0.68**
 
 ---
 
 ## 📈 Store Sales Forecasting
 
-Corporación Favorita (Kaggle).
+Demand forecasting for the Corporación Favorita Kaggle competition.
 
-LightGBM forecasting pipeline with lag, rolling and Fourier features using iterative day-by-day prediction.
+**Highlights**
 
-**Top 7% leaderboard (66 / 931).**
+* LightGBM forecasting pipeline
+* Lag, rolling and Fourier features
+* Iterative day-by-day forecasting
+* Leakage-free validation
+
+**Result:** **Top 7% Kaggle (66 / 931)**
 
 ---
 
-# More Projects
+# 📂 More Projects
 
-### Customer Segmentation & Market Intelligence
+### 👥 Customer Segmentation & Market Intelligence
 
 GPU-accelerated customer segmentation using RAPIDS/cuML.
 
@@ -95,73 +101,76 @@ GPU-accelerated customer segmentation using RAPIDS/cuML.
 * DBSCAN
 * HDBSCAN
 * UMAP
+* Inference-ready clustering pipeline
 
 ---
 
-### Hotel Rating Prediction
+### 🏨 Hotel Rating Prediction
 
 SkillFactory Kaggle competition.
 
 🥈 **2nd place among ~700 participants**
 
-* MAPE **10.45**
 * LightGBM
 * NLP features
 * Leakage-free target encoding
 
+**MAPE:** **10.45**
+
 ---
 
-### Titanic Survival Prediction
+### 🚢 Titanic Survival Prediction
 
-Clean reproducible sklearn pipeline.
+Clean and reproducible machine learning pipeline.
 
-* preprocessing inside CV
-* leakage prevention
+* sklearn Pipelines
+* Leakage prevention
 * Optuna optimization
 * SHAP explainability
-* 7-model benchmark
+* Seven-model benchmark
 
-CV accuracy:
-
-**0.814 ± 0.023**
+**Cross-validation Accuracy:** **0.814 ± 0.023**
 
 ---
 
-# Tech Stack
+# 🛠 Tech Stack
 
-**Languages & Data**
+### Languages & Data
 
 Python • SQL • pandas • NumPy • PyArrow
 
-**Machine Learning**
+### Machine Learning
 
 scikit-learn • LightGBM • CatBoost • XGBoost • Optuna • SHAP
 
-**Recommendation Systems**
+### Recommendation Systems
 
-ALS • FAISS • Sentence Transformers • PyTorch • Learning-to-Rank • LambdaMART • Two-Tower Networks
+ALS • FAISS • Sentence Transformers • PyTorch • Two-Tower Networks • Learning-to-Rank • LambdaMART
 
-**NLP**
+### NLP
 
 Transformers (DistilBERT) • sentence-transformers • spaCy • NLTK
 
-**Visualization & Apps**
+### Visualization & Apps
 
 Streamlit • Plotly • Folium • matplotlib • seaborn
 
-**Deployment**
+### Deployment
 
 FastAPI • Docker • Git • GitHub
 
 ---
 
-# Currently Learning
+# 📚 Currently Learning
 
-Production ML systems • MLOps • Recommender Systems • Model Deployment
+* Production ML systems
+* MLOps
+* Recommender Systems
+* Model Deployment
 
 ---
 
-# Contact
+# 📫 Contact
 
 📧 **[m.chunihin@gmail.com](mailto:m.chunihin@gmail.com)**
 
