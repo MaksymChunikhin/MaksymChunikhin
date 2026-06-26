@@ -1,59 +1,169 @@
 # Maksym Chunikhin
 
-**Data Science & Machine Learning** — predictive modeling, NLP, time series forecasting, and market intelligence. I build end-to-end projects: from raw data to validated models, explainability, and Streamlit apps.
+**Data Science & Machine Learning** — predictive modeling, recommender systems, NLP, time series forecasting, and market intelligence. I build end-to-end ML systems: from raw data and feature engineering to validated models, explainability, REST APIs, Docker deployment, and interactive Streamlit applications.
 
-🌐 English / Italian / Ucraine / Russian · 💼 Open to **Junior Data Scientist / ML Engineer** roles
+🌐 **English / Italian / Ukrainian / Russian**
+💼 **Open to Junior Data Scientist / Machine Learning Engineer roles**
 
 Background in telecommunications (field network infrastructure) and commercial operations — I know what messy real-world data and business processes look like from the inside.
 
 ---
 
-## Featured Projects
+# Featured Projects
 
-### 📝 [Amazon Review Intelligence](https://github.com/MaksymChunikhin/Amazon-Review-Intelligence)
-End-to-end NLP system on **500k Amazon reviews**: sentiment classification, topic modeling, customer analytics, Streamlit dashboard.
-**Tuned TF-IDF + LinearSVC (macro-F1 0.717) vs fine-tuned DistilBERT (0.744)** — honest classic-vs-transformer comparison with a leakage-free shared split. LDA topics chosen over BERTopic with a documented trade-off analysis.
+## 🎮 Steam Discovery Engine
 
-### 🛡️ [Fraud Detection System](https://github.com/MaksymChunikhin/Advanced-Fraud-Detection-System)
-IEEE-CIS Kaggle pipeline on **590k transactions / 471 features**: UID aggregation features, **time-aware validation**, Optuna-tuned LightGBM, SHAP, analyst-facing Streamlit dashboard with review queue.
-**ROC-AUC: 0.949 public / 0.919 private LB.** <!-- TODO: verify exact numbers match the repo README -->
+Production-style recommendation system inspired by modern large-scale recommender architectures. Built from scratch as a complete two-stage retrieval and ranking pipeline.
 
-### 🏠 [Airbnb Smart Pricing & Market Intelligence](https://github.com/MaksymChunikhin/PROJECT-AIRBNB-pricing-market-intelligence)
-End-to-end system on Inside Airbnb Amsterdam data: price model (**ensemble MAE €53, R² 0.68**, ~€10 better than linear baseline), residual-based undervalued/overpriced detector, host segmentation (KMeans + HDBSCAN), MiniLM content-based recommender, Streamlit app.
+**Highlights**
 
-### 📈 [Store Sales Forecasting](https://github.com/MaksymChunikhin/PET-Store-Sales-Time-Series-Forecasting)
-Corporación Favorita (Kaggle): LightGBM with lag/rolling/Fourier features and **iterative day-by-day forecasting** — validation simulates real inference by recomputing lags from the model's own predictions.
-**Top 7% — rank 66 / 931.**
+* Two-stage recommendation pipeline (retrieval → ranking)
+* Multiple retrieval models:
 
-<details>
-<summary>More projects</summary>
+  * ALS collaborative filtering
+  * Content-based retrieval
+  * Semantic retrieval (Sentence Transformers)
+  * Two-Tower neural recommender
+* LambdaMART (LightGBM) learning-to-rank re-ranker
+* Leakage-free offline evaluation
+* FastAPI inference service
+* Interactive Streamlit dashboard
+* Docker deployment
+* Modular production-ready architecture
 
-### [Customer Segmentation & Market Intelligence](https://github.com/MaksymChunikhin/customer-segmentation) <!-- TODO: fix link -->
-GPU-accelerated clustering (RAPIDS / cuML): RFM analytics, KMeans / DBSCAN / HDBSCAN, UMAP, inference-ready pipeline.
-
-### [Hotel Rating Prediction](https://github.com/MaksymChunikhin/project-3-hotel-rating-prediction)
-SkillFactory course competition (Kaggle Community): **2nd place of ~700 participants**, MAPE 10.45. LightGBM + NLP features, leakage-free out-of-fold target encoding.
-
-### [Titanic Survival Prediction](https://github.com/MaksymChunikhin/titanic-honest-craft)
-Clean reproducible sklearn pipeline: preprocessing inside CV, leakage screening, 7-model comparison, Optuna, SHAP. CV accuracy 0.814 ± 0.023.
-
-</details>
+**Tech:** Python • LightGBM • Sentence Transformers • PyTorch • FAISS • FastAPI • Streamlit • Docker
 
 ---
 
-## Tech Stack
+## 📝 Amazon Review Intelligence
 
-**Data:** Python, SQL, pandas, NumPy, PyArrow
-**ML:** scikit-learn, LightGBM, CatBoost, XGBoost, Optuna, SHAP
-**NLP:** Hugging Face Transformers (DistilBERT), sentence-transformers (MiniLM), NLTK, spaCy
-**Clustering / GPU:** KMeans, HDBSCAN, UMAP, RAPIDS cuML
-**Apps & Viz:** Streamlit, Plotly, Folium, matplotlib, seaborn
+End-to-end NLP system on **500k Amazon reviews**: sentiment classification, topic modeling, customer analytics, Streamlit dashboard.
 
-## Currently Learning
+Tuned **TF-IDF + LinearSVC (macro-F1 0.717)** vs fine-tuned **DistilBERT (0.744)** using a leakage-free shared split. Includes a documented comparison between classical ML and Transformers, plus LDA topic modeling with trade-off analysis.
 
-Production ML pipelines · model deployment · recommender systems
+---
 
-## Contact
+## 🛡️ Fraud Detection System
 
-[LinkedIn](https://www.linkedin.com/in/maksym-chunikhin-6423476b/) · m.chunihin@gmail.com <!-- TODO: real email -->
+IEEE-CIS Kaggle pipeline on **590k transactions / 471 features**.
+
+* Advanced UID aggregation features
+* Time-aware validation
+* Optuna-tuned LightGBM
+* SHAP explainability
+* Analyst-facing Streamlit dashboard
+
+**ROC-AUC**
+
+* Public LB: **0.949**
+* Private LB: **0.919**
+
+---
+
+## 🏠 Airbnb Smart Pricing & Market Intelligence
+
+End-to-end pricing and analytics platform built on the Inside Airbnb Amsterdam dataset.
+
+Includes:
+
+* ensemble price prediction (MAE €53, R² 0.68)
+* undervalued/overpriced listing detection
+* host segmentation
+* MiniLM content recommender
+* Streamlit dashboard
+
+---
+
+## 📈 Store Sales Forecasting
+
+Corporación Favorita (Kaggle).
+
+LightGBM forecasting pipeline with lag, rolling and Fourier features using iterative day-by-day prediction.
+
+**Top 7% leaderboard (66 / 931).**
+
+---
+
+# More Projects
+
+### Customer Segmentation & Market Intelligence
+
+GPU-accelerated customer segmentation using RAPIDS/cuML.
+
+* RFM analytics
+* KMeans
+* DBSCAN
+* HDBSCAN
+* UMAP
+
+---
+
+### Hotel Rating Prediction
+
+SkillFactory Kaggle competition.
+
+🥈 **2nd place among ~700 participants**
+
+* MAPE **10.45**
+* LightGBM
+* NLP features
+* Leakage-free target encoding
+
+---
+
+### Titanic Survival Prediction
+
+Clean reproducible sklearn pipeline.
+
+* preprocessing inside CV
+* leakage prevention
+* Optuna optimization
+* SHAP explainability
+* 7-model benchmark
+
+CV accuracy:
+
+**0.814 ± 0.023**
+
+---
+
+# Tech Stack
+
+**Languages & Data**
+
+Python • SQL • pandas • NumPy • PyArrow
+
+**Machine Learning**
+
+scikit-learn • LightGBM • CatBoost • XGBoost • Optuna • SHAP
+
+**Recommendation Systems**
+
+ALS • FAISS • Sentence Transformers • PyTorch • Learning-to-Rank • LambdaMART • Two-Tower Networks
+
+**NLP**
+
+Transformers (DistilBERT) • sentence-transformers • spaCy • NLTK
+
+**Visualization & Apps**
+
+Streamlit • Plotly • Folium • matplotlib • seaborn
+
+**Deployment**
+
+FastAPI • Docker • Git • GitHub
+
+---
+
+# Currently Learning
+
+Production ML systems • MLOps • Recommender Systems • Model Deployment
+
+---
+
+# Contact
+
+📧 **[m.chunihin@gmail.com](mailto:m.chunihin@gmail.com)**
+
+💼 **LinkedIn**
 
