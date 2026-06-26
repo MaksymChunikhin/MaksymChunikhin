@@ -3,7 +3,7 @@
 **Data Science & Machine Learning** — recommender systems, NLP, predictive modeling, time series forecasting, and production ML. I build end-to-end machine learning systems: from raw data and feature engineering to validated models, explainability, REST APIs, Docker deployment, and interactive Streamlit applications.
 
 🌐 **English • Italian • Ukrainian • Russian**
-💼 **Open to Junior Data Scientist / Machine Learning Engineer roles**
+💼 **Open to Junior Data Scientist • Machine Learning Engineer • Recommender Systems Engineer roles**
 
 Background in telecommunications (field network infrastructure) and commercial operations — I understand how messy real-world data and business processes work beyond the notebook.
 
